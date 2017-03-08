@@ -1,0 +1,17 @@
+{
+  "config": {
+    "presets": [
+      "neutrino-preset-react",
+      "neutrino-preset-karma"
+    ]
+  },
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build",
+    "test": "neutrino test"
+  },
+  "devDependencies": {
+    "neutrino": "^4.3.1",
+    "neutrino-preset-react": "^4.2.3"
+  }
+}
