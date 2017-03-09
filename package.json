@@ -1,17 +1,21 @@
 {
   "config": {
     "presets": [
-      "neutrino-preset-react",
+      "neutrino-preset-airbnb-base",
+      "neutrino-preset-web",
       "neutrino-preset-karma"
     ]
   },
   "scripts": {
     "start": "neutrino start",
     "build": "neutrino build",
-    "test": "neutrino test"
+    "test": "neutrino test --watch",
+    "coverage": "neutrino test --coverage"
   },
   "devDependencies": {
     "neutrino": "^4.3.1",
-    "neutrino-preset-react": "^4.2.3"
+    "neutrino-preset-airbnb-base": "^4.3.1",
+    "neutrino-preset-karma": "^4.2.0",
+    "neutrino-preset-web": "^4.2.3"
   }
 }
