@@ -1,5 +1,16 @@
-const app = document.createElement('main');
-const text = document.createTextNode('hello world!');
+import React from 'react';
+import { render } from 'react-dom';
+import { AppContainer } from 'react-hot-loader';
+import MyApp from './MyApp';
 
-app.appendChild(text);
-document.getElementById('root').appendChild(app);
+const load = () => render((
+  <AppContainer>
+    <MyApp />
+  </AppContainer>
+), document.getElementById('root'));
+
+if (module.hot) {
+  module.hot.accept('./MyApp', load);
+}
+
+load();
