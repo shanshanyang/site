@@ -9,7 +9,7 @@
   "scripts": {
     "start": "neutrino start",
     "build": "neutrino build",
-    "test": "neutrino test --watch",
+    "test": "neutrino test",
     "coverage": "neutrino test --coverage"
   },
   "devDependencies": {
