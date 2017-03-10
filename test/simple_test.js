@@ -1,6 +1,9 @@
 import assert from 'assert';
 import sum from '../src/comp.js';
 
+import MyApp from '../src/MyApp.js';
+
+
 
 describe('simple', () => {
   it('should be sane', () => {

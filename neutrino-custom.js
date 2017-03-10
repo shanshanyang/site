@@ -1,4 +1,7 @@
 // neutrino-custom
+/**
+ * 
+ */
 
 module.exports = neutrino => {
   neutrino.config.module
