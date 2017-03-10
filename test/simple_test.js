@@ -1,13 +1,6 @@
 import assert from 'assert';
 import sum from '../src/comp.js';
 
-
-describe('simple', () => {
-  it('should be sane', () => {
-    assert.equal(true, !false);
-  });
-});
-
 describe('sum Acceptance test cases', () => {
   it('2+3 should return correct sum value', () => {
     assert.equal(sum(2,3), 5);
