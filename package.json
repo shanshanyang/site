@@ -3,19 +3,22 @@
     "presets": [
       "neutrino-preset-airbnb-base",
       "neutrino-preset-web",
-      "neutrino-preset-karma"
+      "neutrino-preset-karma",
+      "custom-preset.js"
     ]
   },
   "scripts": {
     "start": "neutrino start",
     "build": "neutrino build",
     "test": "neutrino test",
-    "coverage": "neutrino test --coverage"
+    "coverage": "neutrino test && codecov"
   },
   "devDependencies": {
+    "codecov": "^1.0.1",
     "neutrino": "^4.3.1",
     "neutrino-preset-airbnb-base": "^4.3.1",
     "neutrino-preset-karma": "^4.2.0",
     "neutrino-preset-web": "^4.2.3"
-  }
+  },
+  "dependencies": {}
 }

@@ -1,6 +1,7 @@
 before_install:
   - export CHROME_BIN=chromium-browser
   - export DISPLAY=:99.0
+  - export CODECOV_TOKEN=":3b6ec5bd-2831-4944-9fad-b2f4a88919c5"
   - sh -e /etc/init.d/xvfb start
 language: node_js
 node_js:
