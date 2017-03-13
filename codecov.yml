@@ -20,4 +20,4 @@ parsers:
       method: false
       macro: false
     javascript:
-      enable_partials: false
+      enable_partials: true
