@@ -28,7 +28,8 @@
     "coverage": "neutrino test --coverage"
   },
   "devDependencies": {
-    "codecov": "^1.0.1",
+    "codecov": "1.0.1",
+    "codecov.io": "0.1.6",
     "enzyme": "^2.7.1",
     "neutrino": "^4.3.1",
     "neutrino-preset-airbnb-base": "^4.3.1",
